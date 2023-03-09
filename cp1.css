@@ -1,0 +1,64 @@
+
+
+.color-picker-container{
+    height: 100vh;
+    background-color: #ffffff;
+}
+.heading{
+    font-size: 50px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-top: 100px;
+}
+/* .button{
+    margin:1px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    border-width: 2px;
+    border-color: black;
+    
+    font-family: "Open Sans";
+   
+    
+} */
+
+.button{
+    font-family: "Open Sans";
+    font-size: 14px;
+    width:100px;
+    height:100px;
+    border-width: 3px;
+    border-color: black;
+    border-radius:20px;
+    margin-bottom:10px;
+}
+
+.button-1{
+    background-color: pink;
+}
+.button-2{
+    background-color: aquamarine;
+}
+.button-3{
+    background-color: aqua;
+
+}
+.button-4{
+    background-color: blueviolet;
+}
+.thirdpara{
+    background-color:  black;
+    color: white;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    padding: 16px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box-color{
+    color:rgb(143, 30, 243);
+}
+.instruct{
+    font-family: "Open Sans";
+    font-size: 20px;
+}

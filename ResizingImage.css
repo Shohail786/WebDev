@@ -1,0 +1,51 @@
+.bg-container{
+    background-color: white; 
+}
+
+.heading{
+    color:navy;
+    font-family: "Roboto";
+    font-size:50px;
+    font-weight: bold;
+}
+.error-message{
+    color:red;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+}
+.image-width{
+    color:black;
+    font-family: "Roboto";
+    font-size:20px;
+    font-weight:500px;
+    margin-top:10px;
+}
+
+.buttons-container{
+    background-color: white;
+    width:140px;
+}
+.button{
+    color:black;
+    background-color: white;
+    font-family: "Roboto";
+    font-size:20px;
+    font-weight: bold;
+    width:30%;
+    height:50px;
+    border-width: 0;
+
+}
+.width-in-px{
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: black;
+}
+.hr-line{
+    background-color: black;
+    width:1px;
+    height:20px;
+}
+

@@ -1,0 +1,45 @@
+.tip-container{
+    background-color: antiquewhite;
+}
+
+.tip-image{
+    width:100%;
+}
+
+.tip-heading{
+    color:navy;
+    font-family: "Roboto";
+    font-size:50px;
+    font-weight:bold;
+}
+.label{
+    color:black;
+    font-family: "Roboto";
+    font-size:15px;
+    font-weight:bold;
+}
+
+.user-input{
+    height:50px;
+    width:100%;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+    border-radius:5px;
+    padding-left:12px
+}
+
+.calculate-button{
+    background-color:rgb(16, 6, 80);
+    color:white;
+    font-family: "Roboto";
+    font-size:20px;
+    border-radius:5px;
+}
+.error-message{
+    color:green;
+    font-family:"Roboto";
+    font-size:14px;
+    font-weight:bold;
+    margin-top:10px;
+}

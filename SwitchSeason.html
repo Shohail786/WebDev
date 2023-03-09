@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="SwitchSeason.css">
+   
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Switch Season</title>
+    </head>
+<body>
+    <div>
+        <!-- Display utility classes -->
+        <!-- .d-{value} for xs
+             .d-{breakpoint}-{value} for sm, md, lg, and xl. -->
+             <!-- d-inline-block class to make an element display inline block -->
+             <!-- To hide elements simply use the .d-none class or one of the .d-{sm,md,lg,xl}-none -->
+             <img
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-xs-img.png"
+        class="season-image d-inline d-md-none" 
+        id="smallImage"
+      />
+      <img
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-md-img.png"
+        class="season-image d-none d-md-inline"
+        id="mediumImage"
+      />
+      <div class="d-flex flex-row justify-content-center mt-4">
+        <button class="button spring-button" id="springBtn" onclick="Spring()">Spring</button>
+        <button class="button summer-button" id="summerBtn" onclick="Summer()">Summer</button>
+        <button class="button autumn-button" id="autumnBtn" onclick="Autumn()">Autumn</button>
+        <button class="button winter-button" id="winterBtn" onclick="Winter()">Winter</button>
+      </div>
+    </div>
+
+<script type="text/javascript" src="SwitchSeason.js"></script>
+</body>
+</html>
